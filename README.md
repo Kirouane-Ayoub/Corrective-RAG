@@ -21,6 +21,9 @@ This project implements the **[Corrective RAG (CRAG)](https://arxiv.org/pdf/2401
 
 This implementation leverages **🦜🕸️[LangGraph](https://langchain-ai.github.io/langgraph/)** for graph-based control flow management, **🦜🔗 [LangChain](https://python.langchain.com/v0.2/docs/introduction/)** for language model interactions, and **[Streamlit](https://streamlit.io/)** for creating a user-friendly web application interface.
 
+![download](https://github.com/Kirouane-Ayoub/Corrective-RAG/assets/99510125/cee3cc60-8285-4253-a2e7-de8858d42883)
+
+
 ## Features and Components 
 
 - **Document Retrieval**: Retrieve relevant documents based on a user-provided question.
@@ -66,6 +69,8 @@ To add new documents to the knowledge base, place them in the `src/data_input` d
    ```bash
    streamlit src/app.py
    ```
+![Screenshot from 2024-06-30 12-13-47](https://github.com/Kirouane-Ayoub/Corrective-RAG/assets/99510125/bed0542c-07e4-4809-95cd-1b5903ef68c9)
+
 ## Integration with LangSmith
 
 You can integrate LangSmith for tracking your project by adding the following lines to your `.env` file:
